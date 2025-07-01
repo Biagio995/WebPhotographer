@@ -13,7 +13,6 @@ A modern, responsive website for Tony Rogliero, specializing in professional pho
 
 ## Project Structure
 
-```
 tony_website/
 │   index.html
 │   wedding.html
@@ -34,7 +33,6 @@ tony_website/
 │
 └── images/
     ├── [gallery and branding images]
-```
 
 ## Usage
 
@@ -61,4 +59,4 @@ Website designed for Tony Rogliero - Shoot Your Events.
 
 ---
 
-© 2025 Tony - Shoot Your Events. Tutti
+© 2025 Tony - Shoot Your Events. Tutti i diritti riservati
