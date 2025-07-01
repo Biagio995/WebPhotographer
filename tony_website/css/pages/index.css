@@ -1,0 +1,138 @@
+/* ===== HERO SECTION ===== */
+.hero {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.hero-title {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+/* ===== GALLERY SECTION ===== */
+.gallery-item {
+    overflow: hidden;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.gallery-item img {
+    transition: transform 0.5s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+.gallery-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.gallery-item:hover .gallery-overlay {
+    opacity: 1;
+}
+
+.gallery-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* ===== SERVICES SECTION ===== */
+.service-icon {
+    font-size: 3rem;
+    color: var(--dark-color);
+    margin-bottom: 20px;
+}
+
+/* ===== TEAM SECTION (Homepage Version) ===== */
+/* .team-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    max-width: 200px;
+}
+
+.team-member h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    font-style: italic;
+    margin-bottom: 15px;
+} */
+
+/* ===== CONTACT SECTION (Homepage Version) ===== */
+.contact-section {
+    background-color: var(--light-color);
+}
+
+/* ===== RESPONSIVE STYLES ===== */
+@media (max-width: 991.98px) {
+    .hero-title {
+        font-size: 3rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+}
+
