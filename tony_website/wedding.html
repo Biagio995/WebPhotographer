@@ -17,6 +17,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/pages/wedding.css">
+    <link rel="stylesheet" href="css/modal.css">
     
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/tony_website/images/viber_image_2025-06-05_12-46-38-393.ico">
@@ -152,7 +153,7 @@
             </div>
             <div class="col-md-6">
                 <div class="gallery-item position-relative">
-                    <img src="images/dj_1.jpg" alt="Matrimonio sulla spiaggia" class="img-fluid rounded">
+                    <img src="images/wedding_2.jpg" alt="Matrimonio sulla spiaggia" class="img-fluid rounded">
                     <div class="gallery-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
                         <div class="gallery-content text-center text-white p-3">
                             <h3>Severine & Damien</h3>
@@ -290,11 +291,25 @@
     </div>
 </footer>
 
+<!-- Photo Modal -->
+<div id="photoModal" class="photo-modal">
+    <span class="close">&times;</span>
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+    <div class="modal-content">
+        <!-- Slides will be added dynamically -->
+    </div>
+    <div class="caption-container">
+        <p id="caption"></p>
+    </div>
+</div>
+
 <!-- Bootstrap 5 JS Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
 <!-- Custom JS -->
 <script src="js/main.js"></script>
+<script src="js/modal.js"></script>
 </body>
 </html>
 
