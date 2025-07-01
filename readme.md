@@ -7,32 +7,35 @@ A modern, responsive website for Tony Rogliero, specializing in professional pho
 - **Homepage**: Introduction, service highlights, and quick navigation to wedding and baptism galleries.
 - **Wedding & Baptism Pages**: Dedicated sections with galleries, service descriptions, testimonials, and call-to-action.
 - **Contact Page**: Contact form with validation, business info, and embedded Google Map.
-- **Responsive Design**: Mobile-friendly layout using Bootstrap 5.
+- **Responsive Design**: Mobile-friendly layout using Bootstrap 5 and custom CSS.
 - **Custom Animations**: Smooth fade-in effects and interactive gallery overlays.
+- **Photo Modal**: Clickable gallery images open in a fullscreen modal with navigation.
 - **Social Links**: Quick access to Facebook and Instagram profiles.
 
 ## Project Structure
 
+```
 tony_website/
-│   index.html
-│   wedding.html
 │   baptism.html
 │   contact.php
+│   index.html
+│   wedding.html
 │
 ├── css/
 │   ├── common.css
+│   ├── modal.css
 │   └── pages/
-│       ├── index.css
-│       ├── wedding.css
 │       ├── baptism.css
-│       └── contact.css
+│       ├── contact.css
+│       ├── index.css
+│       └── wedding.css
 │
-├── js/
-│   ├── main.js
-│   └── contact.js
+├── images/
+│   [gallery and branding images]
 │
-└── images/
-    ├── [gallery and branding images]
+└── js/
+    [JavaScript files]
+```
 
 ## Usage
 
@@ -52,6 +55,7 @@ tony_website/
 - [Google Fonts](https://fonts.google.com/)
 - [Font Awesome](https://fontawesome.com/)
 - Vanilla JavaScript
+- Custom CSS for modal and responsive design
 
 ## Credits
 
